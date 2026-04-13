@@ -1,0 +1,50 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === Virtual Environments ===
+venv/
+.env/
+env/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Dataset (Binary assets - Too large for Git) ===
+chest_xray/
+chest_xray_split/
+data/
+
+# === MLflow & Experiment Artifacts ===
+mlruns/
+mlflow.db
+temp_report.txt
+
+# === YOLO Training Outputs ===
+runs/
+
+# === Model Weights / Binaries ===
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.pkl
+artifacts/
+
+# === Gemini Agent Metadata ===
+.agents/

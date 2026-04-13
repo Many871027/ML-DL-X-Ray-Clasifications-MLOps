@@ -1,0 +1,13 @@
+scikit-learn
+imbalanced-learn
+mlflow
+transformers
+datasets
+tensorflow
+torch
+torchvision
+ultralytics
+opencv-python
+pandas
+numpy
+matplotlib
